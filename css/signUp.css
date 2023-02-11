@@ -1,0 +1,64 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    text-align: center;
+}
+.heading{
+    background-color: whitesmoke;
+    padding: 10vh;
+}
+h1{
+    color: blue;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.main{
+    background-color: darkgrey;
+    height: 90vh;
+    border-radius: 35px 35px 0 0;
+    display: flex;
+    flex-direction: column;
+    padding-top: 4rem;
+    
+}
+.UserInput{
+    background-color: gainsboro;
+    max-width: 30rem;
+    text-align: center;
+    padding: 1rem;
+    margin-bottom: 40px;
+    margin-left: 20rem;
+    border-radius: 15px;
+    border: none;
+    
+}
+p{
+    margin-bottom: 20px;
+}
+#signInButton{
+    color: white;
+    background-color: navy;
+}
+
+@media all and (max-width:365px){
+
+   
+    .UserInput{
+      
+        
+         margin: 1rem; 
+  
+    }
+    #signInButton{
+        
+        color: yellow;
+    }
+
+}
+
+
+
